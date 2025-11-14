@@ -1,0 +1,315 @@
+[
+   {
+      "id": 1,
+      "name": "Elegent Dress",
+      "price": "₹2498",
+      "category": "Womens",
+      "image": "images/project/elegent-dress1.jpg",
+      "description": "An elegant women's dress made from premium fabric, perfect for parties and evening wear. Soft, comfortable and stylish fit.",
+      "sizes":["S","M","L","XL"]
+      
+   },
+   {
+      "id": 2,
+      "name": "Casual T-Shirt",
+      "price": "₹899",
+      "category": "Mens",
+      "image": "images/project/casual-tshirt.jpg",
+      "description": "Soft cotton men's casual T-shirt designed for everyday comfort and style. Easy to pair with jeans or shorts.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 3,
+      "name": "Graphic T-Shirt",
+      "price": "₹799",
+      "category": "Mens",
+      "image": "images/project/graphic-tshirt.jpg",
+      "description": "Trendy graphic T-shirt with bold print and breathable cotton fabric. Ideal for casual outings and streetwear style.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 4,
+      "name": "Trendy Kurti set",
+      "price": "₹799",
+      "category": "Womens",
+      "image": "images/project/kurti-set.jpg",
+      "description": "Beautiful and comfortable kurti set made from high-quality cotton blend. Perfect for festive and daily wear.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 5,
+      "name": "Fancy Latest Women Dresses",
+      "price": "₹496",
+      "category": "Womens",
+      "image": "images/project/fancy-latest-women-dress.jpg",
+      "description": "Stylish and fancy women's dress featuring a modern design and soft fabric. Great choice for casual outings or parties.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 6,
+      "name": "Sweing Buckles",
+      "price": "₹188",
+      "category": "Accessories",
+      "image": "images/project/swing_Buckles.jpg",
+      "description": "Durable sewing buckles perfect for bags, belts, or crafts. Made from high-quality metal for long-lasting use."
+   },
+   {
+      "id": 7,
+      "name": "Slig Bags",
+      "price": "₹599",
+      "category": "Accessories",
+      "image": "images/project/slig-bags.jpg",
+      "description": "Trendy sling bag designed for comfort and style. Compact yet spacious enough for essentials, ideal for daily use."
+   },
+   {
+      "id": 8,
+      "name": "Women Hand Bag Set",
+      "price": "₹544",
+      "category": "Accessories",
+      "image": "images/project/hand-bag-set.jpg",
+      "description": "Elegant women's handbag set with multiple compartments. Perfect for parties or casual outings."
+   },
+   {
+      "id": 9,
+      "name": "Trendy hand Bags",
+      "price": "₹1200",
+      "category": "Accessories",
+      "image": "images/project/Trendy-handbag-blacvk.jpg",
+      "description": "Stylish black handbag made from premium leather finish. Spacious design suitable for both office and travel."
+   },
+   {
+      "id": 10,
+      "name": "Bracelets",
+      "price": "₹312",
+      "category": "Accessories",
+      "image": "images/project/bracelets1.jpg",
+      "description": "Beautiful bracelet set designed for women. Adds a touch of elegance to any outfit."
+   },
+   {
+      "id": 11,
+      "name": "Women Hair Clips",
+      "price": "₹100",
+      "category": "Accessories",
+      "image": "images/project/hair-clip1.jpg",
+      "description": "Trendy and durable hair clips that hold hair securely. Ideal for daily wear or styling."
+   },
+   {
+      "id": 12,
+      "name": "Trendy Retro Women Dress",
+      "price": "₹750",
+      "category": "Womens",
+      "image": "images/project/retro-women-dress.jpg",
+      "description": "Retro-style women’s dress with modern comfort. Perfect blend of vintage charm and new-age fashion.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 13,
+      "name": "New trendy hair accessories",
+      "price": "₹199",
+      "category": "Accessories",
+      "image": "images/project/trendy-hair-accessories.jpg",
+      "description": "Stylish hair accessories designed for a trendy look. Suitable for casual and festive styles."
+   },
+   {
+      "id": 14,
+      "name": "Cotton Crochet shirt",
+      "price": "₹899",
+      "category": "Mens",
+      "image": "images/project/cotton-chorchet.jpg",
+      "description": "Soft and breathable cotton crochet shirt for men. A perfect mix of comfort and casual elegance.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 15,
+      "name": "Trendy Modern shirt",
+      "price": "₹999",
+      "category": "Mens",
+      "image": "images/project/trendy-modern1.jpg",
+      "description": "Modern-style men's shirt made from smooth fabric. Great for both office wear and weekend outings.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 16,
+      "name": "Urban Fabulous shirt",
+      "price": "₹1299",
+      "category": "Mens",
+      "image": "images/project/urban-fabulous-3.jpg",
+      "description": "Premium urban-style men's shirt with elegant finish. Tailored fit to enhance your everyday look.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 17,
+      "name": "Designer Modern Men Track Pant",
+      "price": "₹485",
+      "category": "Mens",
+      "image": "images/project/modern-men-track.jpg",
+      "description": "Comfortable designer track pant made with soft stretch fabric. Ideal for workouts or casual wear.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 18,
+      "name": "Casual Men Trousers",
+      "price": "₹700",
+      "category": "Mens",
+      "image": "images/project/casual-men-trousers.jpg",
+      "description": "Smart casual trousers made from breathable cotton blend. Perfect for semi-formal and daily wear.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 19,
+      "name": "Fancy Glamarous men Track Pant",
+      "price": "₹700",
+      "category": "Mens",
+      "image": "images/project/fancy-glamourous-men.jpg",
+      "description": "Trendy and stylish track pant designed for a sporty yet elegant look. Perfect fit and comfort guaranteed.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 20,
+      "name": "Elite Men Analog watches",
+      "price": "₹1700",
+      "category": "Accessories",
+      "image": "images/project/elite-analoge-watches.jpg",
+      "description": "Elegant analog watch with a premium strap. Designed for men who love timeless style and precision."
+   },
+   {
+      "id": 21,
+      "name": "Danial Radcliffe fashionate Watch",
+      "price": "₹2700",
+      "category": "Accessories",
+      "image": "images/project/radclif-watches.jpg",
+      "description": "Stylish fashion watch with a sleek dial. Ideal for formal occasions and premium looks."
+   },
+   {
+      "id": 22,
+      "name": "Stylish Gracefull Women Dresses",
+      "price": "₹900",
+      "category": "Womens",
+      "image": "images/project/stylish-graceful-women.jpg",
+      "description": "Beautiful women's dress designed with elegant patterns. Perfect for both festive and evening wear.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 23,
+      "name": "Bracelet Watches",
+      "price": "₹900",
+      "category": "Accessories",
+      "image": "images/project/watch-with-bracelet.jpg",
+      "description": "Trendy bracelet watch that combines beauty and functionality. Perfect for everyday fashion."
+   },
+   {
+      "id": 24,
+      "name": "Wedding Bag",
+      "price": "₹2000",
+      "category": "Accessories",
+      "image": "images/project/wedding-bag.jpg",
+      "description": "Elegant wedding clutch bag with glitter finish. Adds a luxurious touch to your wedding attire."
+   },
+   {
+      "id": 25,
+      "name": "Top And Tunics",
+      "price": "₹300",
+      "category": "Womens",
+      "image": "images/project/top-and-tunics.jpg",
+      "description": "Casual top and tunic combo for women. Lightweight and stylish for daily wear.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 26,
+      "name": "Versataile Women Potlis",
+      "price": "₹700",
+      "category": "Accessories",
+      "image": "images/project/versatile-women-potil.jpg",
+      "description": "Trendy potli bag with embroidery design. Perfect for traditional and festive occasions."
+   },
+   {
+      "id": 27,
+      "name": "Men Denim Jeans",
+      "price": "₹750",
+      "category": "Mens",
+      "image": "images/project/denim-jeans-men2.jpg",
+      "description": "Classic denim jeans made from premium stretch fabric. Offers all-day comfort and modern style.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 28,
+      "name": "Classy Glamorous Women Jeans",
+      "price": "₹900",
+      "category": "Womens",
+      "image": "images/project/classy-glamoures-women-jeans1.jpg",
+      "description": "Trendy women’s jeans with a perfect slim fit. Great for casual or party looks.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 29,
+      "name": "Women T-Shirt",
+      "price": "₹500",
+      "category": "Womens",
+      "image": "images/project/women-tshirt1.jpg",
+      "description": "Soft cotton T-shirt for women with a chic design. Ideal for daily comfort and style.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 30,
+      "name": "Modern Women Jeggins",
+      "price": "₹500",
+      "category": "Womens",
+      "image": "images/project/modern-jeggins1.jpg",
+      "description": "Stretchable jeggings designed for all-day comfort. Perfect for pairing with tops and tunics.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 31,
+      "name": "Trendy Fashionate Women sarees",
+      "price": "₹700",
+      "category": "Womens",
+      "image": "images/project/women-sarees.jpg",
+      "description": "Beautiful saree made from soft georgette fabric. Adds elegance to any traditional occasion.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 32,
+      "name": "Men Regular Jeans",
+      "price": "₹980",
+      "category": "Mens",
+      "image": "images/project/men-regular-jeans.jpg",
+      "description": "Classic men's regular fit jeans with durable fabric. Perfect for casual and office looks.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 33,
+      "name": "Elegent Fashionate Men Jeans",
+      "price": "₹671",
+      "category": "Mens",
+      "image": "images/project/fashionate-jeans.jpg",
+      "description": "Trendy men's jeans offering comfort and flexibility. Designed for modern casual style.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 34,
+      "name": "Trendy Western Gowns",
+      "price": "₹1700",
+      "category": "Womens",
+      "image": "images/project/trendy-western-gown.jpg",
+      "description": "Stylish western gown with elegant detailing. Perfect for parties and special occasions.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 35,
+      "name": "Top And Bottom Set",
+      "price": "₹521",
+      "category": "Womens",
+      "image": "images/project/top-and-bottom.jpg",
+      "description": "Comfy top and bottom set for women. Lightweight, breathable, and perfect for everyday wear.",
+      "sizes":["S","M","L","XL"]
+   },
+   {
+      "id": 36,
+      "name": "Western Gowns",
+      "price": "₹1499",
+      "category": "Womens",
+      "image": "images/project/western-gowns.jpg",
+      "description": "Elegant western gown crafted with soft flowing fabric. Adds charm to your evening look.",
+      "sizes":["S","M","L","XL"]
+   }
+]

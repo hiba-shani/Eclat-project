@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclat - where Elegance Meets Everyday</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!---------------------- NAVBAR---------------------- -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Eclat</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shops.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-3">
+                        <a href="cart.html" class="btn btn-sm btn-outline-dark position-relative" id="cartBtn">Cart
+                            <span id="cartCount" class="badge bg-dark text-white ms-2">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="container hero-content text-start">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1>Where Elegence Meets Everyday</h1>
+                    <p class="mb-4">Discover timeless pieces and curated collections for every moment.Soft neutrals,
+                        classy cuts - crafted for effortless style</p>
+                    <a href="shops.html" class="btn btn-dark btn-lg">Shop Collections</a>
+
+                </div>
+            </div>
+            <!-- <div class="img-content">
+                <img src="./images/project/hero.jpg" alt="fashion model" class="hero-img">
+            </div> -->
+        </div>
+    </header>
+
+    <main class="mt-5">
+        <div class="container">
+
+            <!-- CATEGORIES -->
+            <section class="mb-5">
+                <div class="row  g-3">
+                    <div class="col-md-4">
+                        <div class="card p-3 text-center card-cat">
+                            <img src="./images/project/womes-collection.jpeg" alt="women">
+                            <h5>Women's Collection</h5>
+                            <small class="text-muted">Flowy dresses & staples</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 text-center card-cat">
+                            <img src="./images/project/mens-collection.jpeg" alt="mens">
+                            <h5>Men's Collection</h5>
+                            <small class="text-muted">Smart casuals</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-3 text-center card-cat">
+                            <img src="./images/project/accessories.jpeg" alt="accessories">
+                            <h5>Accessories</h5>
+                            <small class="text-muted">Finish your look</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------------------------- FEATURED PRODUCTS---------------------------- -->
+
+
+            <section class="mb-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h3 class="mb-0">Featured Items</h3>
+                    <a href="shops.html" class="small text-muted">View All -></a>
+                </div>
+                <div class="row g-4">
+
+
+                    <!-------------------- PRRODUCT CARD--------------------------------- -->
+
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card product-card position-relative p-2">
+
+                            <img src="./images/project/elegent-dress1.jpg" alt="Elegent Dress" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h6 class="card-title mb-1">Elegent Dress</h5>
+                                    <p class="price mb-2">$2,498</p>
+                                    <div class="d-flex justify-content-center gap-2">
+                                        <button class="btn btn-outline-dark btn-sm add-to-cart"
+                                            data-name="Elegent Dress" data-price="2498" data-image="./images/project/elegent-dress1.jpg">Add to Cart</button>
+                                        <a href="shopDetails.html?id=1"
+                                            class="btn btn-outline-secondary btn-sm">View</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card product-card p-2">
+                            <img src="./images/project/casual-tshirt.jpg" class="card-img-top" alt="Casual shirt">
+                            <div class="card-body text-center">
+                                <h6 class="card-title mb-1">Casual Shirt</h6>
+                                <p class="price mb-2">$899</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <button class="btn btn-outline-dark btn-sm add-to-cart" data-title="Casual Shirt"
+                                        data-price="899" data-image="./images/project/casual-tshirt.jpg">Add to Cart</button>
+                                    <a href="shopDetails.html?id=2" class="btn btn-outline-secondary btn-sm">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card product-card p-2">
+                            <img src="./images/project/graphic-tshirt.jpg" class="card-img-top" alt="Graphic Tee">
+                            <div class="card-body text-center">
+                                <h6 class="card-title mb-1">Graphic T-Shirt</h6>
+                                <p class="price mb-2">$799</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <button class="btn btn-outline-dark btn-sm add-to-cart"
+                                        data-title="Graphic T-Shirt" data-price="799" data-image="./images/project/graphic-tshirt.jpg">Add to Cart</button>
+                                    <a href="shopDetails.html?id=3" class="btn btn-outline-secondary btn-sm">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card product-card position-relative p-2">
+                            <img src="./images/project/denim-jeans-men2.jpg" class="card-img-top" alt="Denim Jeans">
+                            <div class="card-body text-center">
+                                <h6 class="card-title mb-1">Denim Jeans</h6>
+                                <p class="price mb-2">$1,299</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <button class="btn btn-outline-dark btn-sm add-to-cart" data-title="Denim Jeans"
+                                        data-price="1299" data-image="./images/project/denim-jeans-men2.jpg">Add to Cart</button>
+                                    <a href="shopDetails.html?id=27" class="btn btn-outline-secondary btn-sm">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <!---------------------- NEWS LETTER---------------- -->
+            <section class="newsLetter my-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h5>Join the Eclat Circle</h5>
+                        <p class="text-muted">Get exclusive early access & offers.</p>
+                        <p class="text-muted">Get 15% off on your first order.</p>
+                       
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form id="subscribeForm" class="d-flex">
+                        <input id="emailInput" type="email" class="form-control" placeholder="Your email address"
+                            required>
+                        <button class="btn btn-dark ms-2" type="submit">Subscribe</button>
+                    </form>
+                    <div id="subscribeMsg" class="mt-2 small text-success" style="display: none;">Thank you! check Your
+                        inbox✨</div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <!-------------- FOOTER --------------->
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5 class="brand-tittle">Eclat</h5>
+                    <p class="text-muted">Luxury-ispired everyday fashion. Curated pieces for effortless elegence.</p>
+                </div>
+                <div class="col-md-2">
+                    <h6>Shop</h6>
+                    <ul class="list-unstyled samll">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li>shipping</a></li>
+                        <li>Returns</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Contact</h6>
+                    <p class="small mb-1">eclatstudio@gmail.com<br> +917594806139</p>
+                    <div class="d-flex gap-2">
+                        <a href="#"><i class="fa-brands fa-square-facebook" style="color: #186ffb;"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter fa-lg" style="color: #74C0FC;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram" style="color: #f01997;"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="text-center mt-4 pt-3 border-top border-secondary">
+                    <small>&COPY; <span id="year"></span>Eclat. All rights reserved.</small>
+                </div>
+            </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

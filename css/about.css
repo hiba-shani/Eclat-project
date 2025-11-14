@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff9f0;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 70px;
+}
+/* navbar */
+
+.navbar {
+ background-color: #fff3e0 !important;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+ 
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ecab07 !important;
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  transition: color 0.3s;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link:hover {
+  color: #c49a6c !important;
+}
+#cartBtn {
+  border-color: #b2904e;
+  color: #b2904e;
+  transition: all 0.3s ease;
+}
+#cartBtn:hover {
+  background-color: #b2904e;
+  color: #fff;
+}
+/*  About Section */
+.about-section {
+  background-color: #fff;
+}
+
+.about-section img {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+.about-section img:hover {
+  transform: scale(1.03);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #222;
+}
+.about-section .text-warning {
+  color: #b2904e !important;
+}
+.about-section p {
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/*  Button Style */
+.btn-dark {
+  background-color: #b2904e;
+  border: none;
+  transition: 0.3s;
+}
+.btn-dark:hover {
+  background-color: #8d723c;
+}
+
+/* Mission Section */
+.mission {
+  background-color: #f7f5f1;
+  padding: 60px 0;
+}
+.mission h3 {
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.mission p {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/*  Footer */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  color: #555;
+  padding: 20px 0;
+}
+footer small {
+  font-size: 0.9rem;
+}
+
+/*  Responsive Tweaks */
+@media (max-width: 768px) {
+  .about-section img {
+    margin-bottom: 20px;
+  }
+  .about-section h2 {
+    font-size: 1.6rem;
+  }
+  .mission p {
+    width: 90% !important;
+  }
+}
