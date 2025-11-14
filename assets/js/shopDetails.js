@@ -78,7 +78,7 @@ fetch('assets/product.json')
             });
 
             // add to cart button (use a specific selector or id)
-            document.querySelector('.add-to-cart-details').addEventListener('click', () => {
+            document.querySelector('.add-to-cart-btn').addEventListener('click', () => {
                 const productObj = {
                     id: product.id,
                     name: product.name,

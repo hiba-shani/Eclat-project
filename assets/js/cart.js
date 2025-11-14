@@ -14,10 +14,8 @@ function addToCart(product) {
     cart.push(product);
   }
 
-  // save to localStorage
-  localStorage.setItem('cart', JSON.stringify(cart));
 
-  // update UI count
+  localStorage.setItem('cart', JSON.stringify(cart));
   updateCartCount();
 }
 
@@ -31,10 +29,10 @@ function updateCartCount() {
 }
 // clear cart
 function clearCart() {
-  cart=[];
+  cart = [];
   localStorage.removeItem("cart");
   // if (typeof updateCartCount === "function") {
-    updateCartCount();
+  updateCartCount();
   // }
 
   if (typeof renderCart === "function") {
